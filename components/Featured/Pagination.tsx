@@ -1,6 +1,6 @@
 'use client'
 
-import useMediaQuery from "@/lib/utils/mediaQuery";
+import useMediaQuery from "@/utils/mediaQuery";
 import { useEffect, useState } from "react";
 
 export default function Pagination ({ booksPerPage, totalBooks, prevPage, nextPage, selectPage, currentPage }: {booksPerPage: number, totalBooks: number, prevPage: () => void, nextPage: () => void, selectPage: (n: number) => void, currentPage: number}) {

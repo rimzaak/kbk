@@ -1,6 +1,6 @@
 'use server'
 
-import { handleError } from "@/lib/utils/utils";
+import { handleError } from "@/utils/utils";
 import { CreateUserParams, UpdateUserParams } from "@/types";
 import { connectToDatabase } from "../database";
 import { revalidatePath } from "next/cache";

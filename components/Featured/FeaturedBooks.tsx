@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import Pagination from "./Pagination";
-import useMediaQuery from "@/lib/utils/mediaQuery";
+import useMediaQuery from "@/utils/mediaQuery";
 
 
 export default function FeaturedBooks ({featuredBooks}: {featuredBooks: book[]}) {
